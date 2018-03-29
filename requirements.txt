@@ -1,0 +1,5 @@
+requests
+PIL
+selenium 
+pytesseract
+bs4
