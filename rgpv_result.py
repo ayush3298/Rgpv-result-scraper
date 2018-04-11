@@ -1,7 +1,13 @@
-#import io
+
+#-------------------------------------------------------------------------------
+# Name:        Rgpv Result Scraper 
+# Purpose:  scrape rgpv result of whole batch
+#
+# Author:      Ayush 
+#
+#-------------------------------------------------------------------------------
 import requests
 from PIL import Image
-import urllib.request
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait, Select
