@@ -22,7 +22,7 @@ def inputelement(roll,driver): #input roll number and semester
     captecha_read(roll,driver)
 
 
-def captecha_read(roll,driver): #read Captcha and fill
+def captecha_read(roll, driver): #read Captcha and fill
     lst = list()
     lst.clear()
     captecha_box = driver.find_element_by_id("ctl00_ContentPlaceHolder1_TextBox1")
@@ -42,7 +42,7 @@ def captecha_read(roll,driver): #read Captcha and fill
     captecha_box.send_keys(text)
     time.sleep(5)
     click(driver)
-    get_result(roll,driver)
+    get_result(roll, driver)
 
 
 def click(driver): #click on submit button and try to click again it will help if capatcha cant be red correctly
